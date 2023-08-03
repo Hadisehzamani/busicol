@@ -33,7 +33,8 @@
     background: rgba(44, 44, 44, 0.5);
     display: flex;
     justify-content: space-between;
-    padding: 12px 200px;
+    align-items: center;
+    padding: 0 200px;
     color: white;
     font-size: 13px;
     height: 48px;
@@ -48,11 +49,24 @@
 .communication .social a {
     margin-right: 15px;
     text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.communication .social a i:hover {
+    color: #28AE60;
+    transition: 0.4s;
 }
 
 .communication .contact a {
     margin-left: 40px;
     text-decoration: none;
+    font-size: 15px;
+}
+
+.communication .contact a:hover{
+    color: #28AE60;
+    transition: 0.4s;
 }
 
 .navbar {
@@ -60,10 +74,16 @@
     padding: 12px 200px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #4B4E50;
+    
 }
 
-.menu {
+.navbar .line {
+    width: 100%;
+    height: 1px;
+    background-color: #4B4E50;
+}
+
+.navbar .menu {
     display: flex;
     align-items: center;
     justify-content: center;
